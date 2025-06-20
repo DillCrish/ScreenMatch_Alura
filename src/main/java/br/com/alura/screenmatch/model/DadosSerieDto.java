@@ -10,4 +10,5 @@ public record DadosSerieDto(@JsonAlias("Title") String titulo,
                             @JsonAlias("totalSeasons") Integer totalTemporadas,
                             @JsonAlias("imdbRating") String avaliacao) implements Serializable {
 
+
 }
